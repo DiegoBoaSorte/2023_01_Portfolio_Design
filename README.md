@@ -5,4 +5,4 @@ Criação do Repositório e arquivo Readme - 21/03/2023
 
 Upload da pasta doc, contendo PDF Wireframe Portfólio (Figma) - 21/03/2023
 
-Upload do Diretório SRC, com app.py, templates e static. - 16/04/2023
+Upload do Diretório SRC, com app.py, templates. - 16/04/2023
