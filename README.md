@@ -1,4 +1,4 @@
-# portfolio_diegodias_2023-01
+# Portfolio - Diego Dias - DSM 2023/01
 Design Digital - Portfólio - Diego Dias - 2023/01
 
 Criação do Repositório e arquivo Readme - 21/03/2023
