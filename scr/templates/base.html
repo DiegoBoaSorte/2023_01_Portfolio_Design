@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <link rel="stylesheet" href="/static/css/estilo.css">
+    <link rel="stylesheet" href="/static/css/normalize.css">  
+
+</head>
+<body>
+    <style>
+        body{
+            background-image: url(/static/img/fundo-site.jpg) ;
+        }
+       
+    </style>
+    
+    <div class="topo" 
+        style="background-color: darkgrey; opacity: 90%; height: 120px;
+               border-bottom: 10px solid white;">
+        
+        <div>
+            <img src="/static/img/boasorte (1).png" alt="logoboasorte" height="120px" width="350px">
+        </div>
+    
+        <div>
+            <h4 class="links" style="font-family: Verdana, Geneva, Tahoma, sans-serif;">
+            <button><a href="/" style="text-decoration: none;">Home</a></button> 
+            
+            <button><a href="/portfolio" style="text-decoration: none;">Portfólio</a></button>
+            
+            <button><a href="/hobbies" style="text-decoration: none;">Hobbies</a></button>
+            </h4>
+        </div>
+    </div>
+
+   <!--  <div class="container">
+        
+        <div class="oval">
+
+        </div>
+       
+            
+    </div> -->
+
+    {% block conteudo  %}
+
+    {% endblock %}
+    <div class="box">
+        <div class="rodape">
+         <a href="https:/facebook.com/diegoboasorte"><img src="/static/img/face (1).png" alt="facebook" height="50px" width="50px"></a>
+         <a href="https:/instagram.com/diegobsorte"><img src="/static/img/insta (1).png" alt="instagram" height="50px" width="50px"></a>
+         <a href="https://wa.me/5512988025195"><img src="/static/img/whats (1).png" alt="whats" height="50px" width="50px"></a>
+         <a href="https:/linkedin.com/in/diegoboasorte"><img src="/static/img/linked (1).png" alt="linkedin" height="50px" width="50px"></a>   
+        </div>
+    </div>    
+    
+</body>
+
+</html>
