@@ -6,6 +6,19 @@ body{
     
     
 }
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+ul {
+    font-size: 1.8rem;
+}
+
 .topo{
     display: grid;
     grid-template-columns: auto auto;
@@ -17,9 +30,12 @@ body{
     padding-right: 5%;
     text-align: end;
 }
+
+ 
+
 .container{
 
-   /*  width: 85%;  */
+    width: 95%;
     height: 600PX;
     display: flex;
     flex-direction: row;
@@ -33,7 +49,7 @@ body{
     width: 85%;
     height: 85%;
     border: 20px solid rgb(186, 250, 90);
-    border-radius: 600px 600px;
+    border-radius: 10px 10px;
     background: rgb(212, 212, 212); 
     box-shadow: 0 0 5px black;
     opacity: 95%;
@@ -74,6 +90,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     padding-top: 5%;
     padding-left: 10%;
+    
  }
 
 .itsme {
@@ -108,12 +125,14 @@ figure {
     margin-inline-start: 5px;
     margin-inline-end: 5px;
 }
-button {
-    height: 55px;
+ button {
+    
     width: 180px;
     border-radius: 25px;
     font-weight: bold;
-}
+    
+    
+} 
 
 button:hover {
     
@@ -127,3 +146,148 @@ button:hover {
      opacity: 70%;
      
 }
+
+@media (max-width: 768px){
+
+    
+            
+    .container {
+      height: auto;
+      flex-direction: column; /* Alterado para uma direção de coluna para empilhar os elementos verticalmente */
+    }
+  
+    .oval {
+      width: 80%;
+      height: auto; /* Alterado para altura automática para se ajustar ao conteúdo interno */
+      margin: 10% auto; /* Centralizar verticalmente com 10% de margem superior e inferior */
+      margin-top: 100px;
+    }
+  
+    .foto {
+      width: 220px;
+      height: auto; /* Alterado para altura automática para se ajustar à largura */
+      margin: 0 auto; /* Centralizar horizontalmente */
+      top: 160px; /* Removido o deslocamento superior */
+    }
+  
+    h1 {
+      padding-top: 30%;
+      font-size: 30px;
+    }
+
+    .itsme {
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 2rem;
+    }
+
+    .links {
+        font-size: large;
+        padding-left: 30%;
+        text-align: center;
+    }
+    
+    .logo2{
+      text-align: center;
+    }
+
+    .logoboa {
+      width: 200px;
+      height: auto; /* Alterado para altura automática para se ajustar à largura */
+      
+    }
+  
+  }
+  
+
+@media (max-width: 425px){
+
+    
+            
+    .container {
+      width: 100%;
+      height: auto;
+      flex-direction: column; /* Alterado para uma direção de coluna para empilhar os elementos verticalmente */
+    }
+  
+    .oval {
+      width: 80%;
+      height: auto; /* Alterado para altura automática para se ajustar ao conteúdo interno */
+      margin: 10% auto; /* Centralizar verticalmente com 10% de margem superior e inferior */
+      margin-top: 100px;
+      border: 10px solid rgb(186, 250, 90);
+    }
+
+    .oval h1{
+        font-size: 25px;
+        
+    }
+    .oval p{
+        font-size: 20px;
+    }
+    .oval ul{
+        font-size: 20px;
+    }
+    .foto {
+      width: 220px;
+      height: auto; /* Alterado para altura automática para se ajustar à largura */
+      margin: 0 auto; /* Centralizar horizontalmente */
+      top: 160px; /* Removido o deslocamento superior */
+    }
+  
+    h1 {
+      padding-top: 57%;
+      font-size: 1rem;
+    }
+
+    .itsme {
+        padding-right: 10%;
+        padding-left: 10%;
+        font-size: 2rem;
+    }
+
+    .links {
+        font-size: medium;
+        padding-left: 30%;
+        text-align: center;
+    }
+    
+    .links button{
+        width: 100px;
+
+    }
+    .logo2{
+      text-align: center;
+    }
+
+    .logoboasorte{
+      width: 180px;
+      padding-top: 10%;
+      height: auto; /* Alterado para altura automática para se ajustar à largura */
+      
+    }
+    .logoboa {
+        width: 150px;
+        height: auto; /* Alterado para altura automática para se ajustar à largura */
+        
+      }
+     
+    .oval h2{
+        font-size: 20px;
+    }  
+
+    .oval a{
+        font-size: 15px;
+    }
+    
+   /*  .icons {
+        column-gap: 10%;
+    } */
+    .icons figcaption{
+        font-size: 11px;
+    }
+  
+  }
+  
+
+ 
