@@ -1,4 +1,4 @@
-# Como Utilizar o Sistema:
+## Como Utilizar o Sistema:
 
 ## Requisitos:
 
@@ -22,7 +22,7 @@ git clone https://github.com/DiegoBoaSorte/portfolio_diegodias
 
 2. Ainda no terminal vá para a pasta src:
 ```
-cd src/
+cd .\portfolio_diegodias\src\
 
 ```
 
